@@ -6,11 +6,11 @@ La calificación es **individual**: cada persona diseña **solo su HU**, en **su
 
 | Integrante | Tu HU | Tu rama | Tu carpeta |
 |---|---|---|---|
-| Davier | HU-011 | `qa/hu-011` | `02_Usuarios_e_inventario/Proceso_Pruebas_HU-011_Crear_usuarios_desde_el_servicio/` |
-| Davier | HU-012 | `qa/hu-012` | `02_Usuarios_e_inventario/Proceso_Pruebas_HU-012_Actualizar_usuarios_desde_el_servicio/` |
-| Ismael | HU-013 | `qa/hu-013` | `02_Usuarios_e_inventario/Proceso_Pruebas_HU-013_Eliminar_usuarios_sin_prestamos/` |
-| Diego | HU-022 | `qa/hu-022` | `03_Prestamos_y_experiencia/Proceso_Pruebas_HU-022_Consultar_el_historial_de_un_usuario/` |
-| Diego | HU-024 | `qa/hu-024` | `03_Prestamos_y_experiencia/Proceso_Pruebas_HU-024_Consultar_Mis_prestamos/` |
+| Davier Andrés Quinto Bejarano | HU-011 | `qa/hu-011` | `02_Usuarios_e_inventario/Proceso_Pruebas_HU-011_Crear_usuarios_desde_el_servicio/` |
+| Davier Andrés Quinto Bejarano | HU-012 | `qa/hu-012` | `02_Usuarios_e_inventario/Proceso_Pruebas_HU-012_Actualizar_usuarios_desde_el_servicio/` |
+| Ismael Mira Correa | HU-013 | `qa/hu-013` | `02_Usuarios_e_inventario/Proceso_Pruebas_HU-013_Eliminar_usuarios_sin_prestamos/` |
+| Diego Andrés Rojas Quintero | HU-022 | `qa/hu-022` | `03_Prestamos_y_experiencia/Proceso_Pruebas_HU-022_Consultar_el_historial_de_un_usuario/` |
+| Diego Andrés Rojas Quintero | HU-024 | `qa/hu-024` | `03_Prestamos_y_experiencia/Proceso_Pruebas_HU-024_Consultar_Mis_prestamos/` |
 | Mariana | HU-010 | `qa/hu-010` | `02_Usuarios_e_inventario/Proceso_Pruebas_HU-010_Consultar_el_listado_de_usuarios/` |
 
 > Si tienes **dos HU** (Davier y Diego), haces todo **dos veces**: una rama y una PR por cada HU. No mezcles las dos HU en la misma rama.
@@ -115,7 +115,7 @@ Si después haces más cambios, basta con `git add .`, `git commit -m "..."` y `
 
 5. En **Reviewers** agrega a la persona que designó el Grupo 2.
 6. Pulsa **Create pull request**.
-7. En el tablero (GitHub Project), mueve tu tarea a **«En revisión»**.
+7. En el tablero ([GitHub Project](https://github.com/users/marianauribe57-art/projects/4)), mueve tu tarea a **«En revisión»**.
 
 ## Paso 8 · Atender la revisión
 

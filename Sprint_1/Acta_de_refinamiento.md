@@ -7,7 +7,7 @@
 | Campo | Valor |
 |---|---|
 | Fecha | ___ |
-| Participantes | Mariana Uribe Muñoz, Davier, Diego, Ismael · Product Owner: instructor Carlos Navia |
+| Participantes | Mariana Uribe Muñoz, Davier Andrés Quinto Bejarano (líder), Diego Andrés Rojas Quintero, Ismael Mira Correa · Product Owner: instructor Carlos Navia |
 | Objetivo | Aclarar las dudas que afectan el diseño antes de comprometer cada HU (DoR, punto 4) |
 
 > **Regla (guía EV05, Fase 2):** no convertir una suposición en requisito. Mientras el PO no responda, cada pregunta lleva una **interpretación provisional** con la que se diseña, y queda registrada.
@@ -25,31 +25,31 @@
 | PA-07 | ¿Qué **mensaje** informa el exceso de consultas? | CA-HU-010-07 dice «informa la situación» sin el texto | No se inventa el texto: se verifica que exista un aviso de rechazo y que no se muestren resultados nuevos. | ___ |
 | PA-08 | Al ordenar por **nombre**, ¿cómo se ordenan las tildes, las mayúsculas y los nombres repetidos? | CA-HU-010-02 | Los datos de prueba usan nombres sin empates ni tildes al inicio. | ___ |
 
-## HU-011 Crear usuarios desde el servicio · Responsable: Davier
+## HU-011 Crear usuarios desde el servicio · Responsable: Davier Andrés Quinto Bejarano
 
 | ID | Pregunta para el Product Owner | Por qué importa (origen) | Interpretación provisional | Respuesta del PO |
 |---|---|---|---|---|
 | PA-01 | | | | |
 
-## HU-012 Actualizar usuarios desde el servicio · Responsable: Davier
+## HU-012 Actualizar usuarios desde el servicio · Responsable: Davier Andrés Quinto Bejarano
 
 | ID | Pregunta para el Product Owner | Por qué importa (origen) | Interpretación provisional | Respuesta del PO |
 |---|---|---|---|---|
 | PA-01 | | | | |
 
-## HU-013 Eliminar usuarios sin préstamos · Responsable: Ismael
+## HU-013 Eliminar usuarios sin préstamos · Responsable: Ismael Mira Correa
 
 | ID | Pregunta para el Product Owner | Por qué importa (origen) | Interpretación provisional | Respuesta del PO |
 |---|---|---|---|---|
 | PA-01 | | | | |
 
-## HU-022 Consultar el historial de un usuario · Responsable: Diego
+## HU-022 Consultar el historial de un usuario · Responsable: Diego Andrés Rojas Quintero
 
 | ID | Pregunta para el Product Owner | Por qué importa (origen) | Interpretación provisional | Respuesta del PO |
 |---|---|---|---|---|
 | PA-01 | | | | |
 
-## HU-024 Consultar Mis préstamos · Responsable: Diego
+## HU-024 Consultar Mis préstamos · Responsable: Diego Andrés Rojas Quintero
 
 | ID | Pregunta para el Product Owner | Por qué importa (origen) | Interpretación provisional | Respuesta del PO |
 |---|---|---|---|---|
