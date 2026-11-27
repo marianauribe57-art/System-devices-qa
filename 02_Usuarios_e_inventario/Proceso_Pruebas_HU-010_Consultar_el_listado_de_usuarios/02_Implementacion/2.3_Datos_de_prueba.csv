@@ -1,2 +1,24 @@
-id_dato,caso,campo_1,campo_2,campo_3,campo_4,particion,resultado_esperado
-D-001,MOD-FUN-001,,,,,,
+id_dato,caso,sesion,filtro_rol,filtro_estado,orden,accion,particion,resultado_esperado
+D-001,USR-CONS-001,U-04 Daniel Estrada (soporte),usuario,activa,—,Pulsar el botón de consulta,Con coincidencias,"Andrea Bonilla, Bruno Cardona y Hernán Ibarra; ninguna otra"
+D-002A,USR-CONS-002,U-04,usuario,activa,—,Pulsar el botón de consulta,Consulta inicial,"Andrea, Bruno y Hernán"
+D-002B,USR-CONS-002,U-04,usuario,inactiva,—,Cambiar estado sin pulsar el botón de consulta,Filtro sin aplicar,"Siguen Andrea, Bruno y Hernán; ninguna solicitud nueva"
+D-003A,USR-CONS-003,U-04,usuario,activa,nombre ascendente,Elegir orden,Nombre asc,Andrea → Bruno → Hernán
+D-003B,USR-CONS-003,U-04,usuario,activa,nombre descendente,Elegir orden,Nombre desc,Hernán → Bruno → Andrea
+D-004A,USR-CONS-004,U-04,usuario,activa,fecha de alta ascendente,Elegir orden,Fecha asc,Bruno (15 ene) → Hernán (2 mar) → Andrea (12 jun)
+D-004B,USR-CONS-004,U-04,usuario,activa,fecha de alta descendente,Elegir orden,Fecha desc,Andrea (12 jun) → Hernán (2 mar) → Bruno (15 ene)
+D-005,USR-CONS-005,U-04,soporte,activa,—,Pulsar el botón de consulta,Cuenta propia incluida,Daniel Estrada (destacada) y Elena Fuentes (sin destacar)
+D-006,USR-CONS-006,U-04,soporte,inactiva,—,Pulsar el botón de consulta,Cuenta propia excluida,Solo Felipe Gómez; Daniel Estrada no aparece aunque también es soporte
+D-007,USR-CONS-007,Sin sesión,—,—,—,Abrir Usuarios,Sin sesión,Ninguna cuenta visible; se solicita iniciar sesión
+D-008,USR-CONS-008,Sin sesión,usuario,activa,—,Solicitud directa al servicio,Sin sesión,Solicitud rechazada; sin cuentas; 8 usuarios sin cambios
+D-009,USR-CONS-009,U-04,administrador,inactiva,—,Pulsar el botón de consulta,Sin coincidencias,Aviso de listado vacío; no aviso de error
+D-010,USR-CONS-010,U-04,usuario,activa,—,Pulsar el botón de consulta con el servicio fallando,Fallo del servicio,Aviso de error de consulta; no aviso de listado vacío
+D-011,USR-CONS-011,U-04,usuario,inactiva,—,Recargar la página,Recarga,Filtros usuario + inactiva; solo Camila Duarte
+D-012,USR-CONS-012,U-04,soporte,inactiva,—,Abrir el enlace en otra pestaña,Enlace,Filtros soporte + inactiva; solo Felipe Gómez
+D-013A,USR-CONS-013,U-04,usuario,activa,—,Consulta A,Primera dirección,"Andrea, Bruno y Hernán"
+D-013B,USR-CONS-013,U-04,soporte,inactiva,—,Consulta B y luego Atrás,Dirección anterior,"Vuelven usuario + activa y Andrea, Bruno y Hernán"
+D-014,USR-CONS-014,U-04,usuario,activa,—,31 consultas en el mismo minuto,30 = límite · 31 = exceso,Consultas 1–30 aceptadas; la 31 rechazada con aviso; 8 usuarios sin cambios
+D-015,USR-CONS-015,U-04,soporte,activa,—,Pulsar el botón de consulta e inspeccionar la respuesta,Contraseña conocida: Consulta2026,El texto Consulta2026 no aparece en pantalla ni en la respuesta
+D-016,USR-CONS-016,U-04,administrador,inactiva,—,Recorrido solo con teclado,Teclado,Todos los controles alcanzables y operables con teclado
+D-017,USR-CONS-017,U-04,soporte,activa,—,Recorrido con lector de pantalla,Lector,"Etiquetas, carga, cuenta destacada y listado vacío anunciados"
+D-018,USR-CONS-018,U-04,usuario,activa,nombre ascendente,Recorrido en 1366×768 y 375×812,Dos tamaños,"Datos, mensajes y controles legibles y operables en ambos"
+D-019,USR-CONS-019,U-04,administrador,activa,—,Consultar en dos zonas horarias,Bogotá UTC−5 · Madrid UTC+1,"Gloria Herrera: 24 feb 2026 22:30 (Bogotá) y 25 feb 2026 04:30 (Madrid), mismo instante"
